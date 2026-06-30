@@ -37,4 +37,5 @@ ascan .
 ascan . --format json --output report.json
 ascan . --ipa build/MyApp.ipa
 ascan build/MyApp.ipa --only ipa
+ascan . --only ipa
 ```
