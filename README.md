@@ -39,3 +39,5 @@ ascan . --ipa build/MyApp.ipa
 ascan build/MyApp.ipa --only ipa
 ascan . --only ipa
 ```
+
+在 Xcode 导出的 IPA 目录里，如果目录不像源码项目且只有一个 `.ipa` 文件，直接运行 `ascan` 也会自动扫描这个 IPA。
